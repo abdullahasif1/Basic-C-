@@ -8,7 +8,7 @@ using namespace std;
 int main(){
 
 int a;
-string x,y;
+char x[20],y[20];
 cout<<"Enter your first name: ";
 cin>>x;
 
@@ -17,7 +17,7 @@ cin>>y;
 
 cout<<"Enter your age : ";
 cin>>a;
-strcat(x,y);
+strcat(x,y,);
 cout<<"Your gmail address is : "<<x<<"@gmail.com"<<endl;
 
 
