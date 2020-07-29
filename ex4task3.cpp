@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string.h>
 using namespace std;
 
 
@@ -16,8 +17,8 @@ cin>>y;
 
 cout<<"Enter your age : ";
 cin>>a;
-
-cout<<"Your gmail address is : "<<x<<y<<a<<"@gmail.com"<<endl;
+strcat(x,y);
+cout<<"Your gmail address is : "<<x<<"@gmail.com"<<endl;
 
 
 
